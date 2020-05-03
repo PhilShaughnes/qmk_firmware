@@ -37,6 +37,19 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT,KC_NUBS,KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,   KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_LSFT,    KC_UP, KC_PGDN,\
         MO(1)  ,KC_LALT,KC_LGUI,                KC_SPC,                 KC_RGUI, MO(1), KC_RCTL,         KC_LEFT,    KC_DOWN,KC_RGHT \
     ),
+    /* Layer 1: Default Layer
+     * ,---------------------------------------------------------------.
+     * |   | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|vdn|vup|mut|   |   |
+     * |---------------------------------------------------------------|
+     * |     |   | up|   |   |   |   |   |   |   |   |  (|  )|     |ply|
+     * |---------------------------------------------------------------|
+     * |      |lft|dwn| rt|   |   |lft|dwn| up| rt|   |  `|        |Mnx|
+     * |---------------------------------------------------------------|
+     * |    |   |   |   |   |   |   |   |   |Mpv|Mnx|  \|      |Pup|Mpv|
+     * |---------------------------------------------------------------|
+     * |    |    |    |         Mplay    |    |    |====|  |hom|Pdn|end|
+     * `---------------------------------------------------------------'
+     */
     [1] = LAYOUT( \
         KC_TRNS,KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_F6,  KC_F7,  KC_F8,  KC_F9,  KC_F10, KC_VOLD, KC_VOLU, KC_MUTE,KC_TRNS,KC_TRNS,\
         KC_TRNS,KC_TRNS,KC_UP,  KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_LPRN,KC_RPRN,KC_TRNS,     KC_MPLY,\
